@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Praktika_FPGA/Arifmetika/CONV_tb/simulation/sim
+vCONV
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QPAK9=_Fie:7D2;Q:QoUN1
+I[oSCK:h8P9VD0E4g>@W1H0
+R0
+w1700660290
+8../../conv.v
+F../../conv.v
+L0 4
+Z2 OL;L;10.6d;65
+Z3 !s108 1700662506.000000
+Z4 !s107 ../../conv.v|../CONV_tb.v|
+Z5 !s90 -reportprogress|300|../CONV_tb.v|../../conv.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+n@c@o@n@v
+vCONV_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :GJXTgmlg01_ii9k:Dh?Q1
+I`O4j[OjXMK0?e9cUX_PJM2
+R0
+w1700660394
+8../CONV_tb.v
+F../CONV_tb.v
+L0 4
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+n@c@o@n@v_tb
