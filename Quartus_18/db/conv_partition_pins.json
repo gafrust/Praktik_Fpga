@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CONV_oData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_oData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CONV_iData1[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

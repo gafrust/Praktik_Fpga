@@ -13,17 +13,17 @@
 # //
 # do ../modelsim_script.tcl
 # Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 17:15:06 on Nov 22,2023
+# Start time: 11:17:27 on Nov 27,2023
 # vlog -reportprogress 300 ../CONV_tb.v ../../conv.v 
 # -- Compiling module CONV_tb
 # -- Compiling module CONV
 # 
 # Top level modules:
 # 	CONV_tb
-# End time: 17:15:06 on Nov 22,2023, Elapsed time: 0:00:00
+# End time: 11:17:27 on Nov 27,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.CONV_tb -novopt 
-# Start time: 17:15:06 on Nov 22,2023
+# Start time: 11:17:27 on Nov 27,2023
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Refreshing E:/Praktika_FPGA/Arifmetika/CONV_tb/simulation/sim/work.CONV_tb
 # Loading work.CONV_tb
@@ -36,5 +36,6 @@
 # Break in Module CONV_tb at ../CONV_tb.v line 28
 # 0 ns
 # 1155 ns
-# End time: 17:15:49 on Nov 22,2023, Elapsed time: 0:00:43
-# Errors: 0, Warnings: 1
+# Causality operation skipped due to absence of debug database file
+# End time: 12:20:00 on Nov 27,2023, Elapsed time: 1:02:33
+# Errors: 0, Warnings: 2
