@@ -89,13 +89,13 @@ begin
 			    //CONV_oDatareg<= (CONV_iData0reg*(1) + CONV_iData1reg*(-1));
 
 				 CONV_oDatareg<= (CONV_iData0reg*(mnog_1) + CONV_iData1reg*(mnog_2));
-				 CONV_oData_test<= (CONV_iData0reg*(mnog_1) + CONV_iData1reg*(mnog_2));
-				if(-CONV_oData_test)
-				 begin
-					CONV_oDatareg[12]<=1;
-				 end else begin
-				          CONV_oDatareg[12]<= 0;
-				           end
+				 //CONV_oData_test<= (CONV_iData0reg*(mnog_1) + CONV_iData1reg*(mnog_2));
+				// if(-CONV_oData_test)
+				//  begin
+				// 	CONV_oDatareg[12]<=1;
+				//  end else begin
+				//           CONV_oDatareg[12]<= 0;
+				//            end
 				
 				 CONV_iD0<=CONV_iData0reg*(1);
                  CONV_iD1<=CONV_iData1reg*(-1);

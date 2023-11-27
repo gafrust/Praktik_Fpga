@@ -13,7 +13,7 @@ reg reset;
 reg clk;
 reg  [11:0] CONV_iData0;
 reg  [11:0] CONV_iData1;
-wire [11:0] CONV_oData;
+wire [12:0] CONV_oData;
 reg  [15:0] index_reset; 
 reg  [1:0]  State;
 

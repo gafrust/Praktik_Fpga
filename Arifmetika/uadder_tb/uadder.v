@@ -8,4 +8,4 @@ output cout
 
 assign {cout, sum} = a+b+cin;
 
-endmodule
+endmodulerfrВУЫШЮЮ ч

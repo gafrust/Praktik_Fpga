@@ -19,13 +19,12 @@ parameter InState =   4'b0001,
 reg [11:0] CONV_iData0reg;//[LengthOfConv - 1:0];
 reg [11:0] CONV_iData1reg;//[LengthOfConv - 1:0];
 reg [12:0] CONV_oDatareg;//[2*LengthOfConv - 2:0];
-reg [11:0] CONV_oData_test;
 
 reg [11:0] CONV_iD0; //[LengthOfConv - 1:0];
 reg [11:0] CONV_iD1; //[LengthOfConv - 1:0];
 
-reg signed [11:0] mnog_1; //первый умножитель
-reg signed [11:0] mnog_2; //второй умножитель
+reg [11:0] mnog_1; //первый умножитель
+reg [11:0] mnog_2; //второй умножитель
 
 
  
@@ -41,7 +40,7 @@ reg signed [11:0] mnog_2; //второй умножитель
  
 reg [3:0] state,nextstate;
  
-
+assign CONV_oDatareg= ((CONV_iData0reg*(1) + CONV_iData1reg*(-1));
 
  always @ (posedge clk) // Используйте несколько тактов, чтобы очистить регистр ввода свертки и регистр результата
 begin
@@ -50,7 +49,6 @@ begin
 		CONV_iData0reg <= 12'b0;
 		CONV_iData1reg <= 12'b0;
 		CONV_oDatareg <= 13'b0;
-		CONV_oData_test<=12'b0;
 		// index_convs <= 0;
 		// index0 <= 0;
 		// index1 <= 0;
@@ -63,8 +61,8 @@ begin
 		//nextstate <= ConvState;
 	    CONV_iD0 <= 12'b0;
         CONV_iD1 <= 12'b0;
-		mnog_1 <= 12'd2;
-		mnog_2 <= -12'd5;
+		mnog_1 <= 12'b0;
+		mnog_2 <= 12'b0;
 		
 	end
 	else
@@ -86,17 +84,7 @@ begin
 		 if (state == ConvState) // Рассчитываем свертку
 		    begin
 			  CONV_oData <= 0; // Когда преобразование не окончено, на выходе будет 0
-			    //CONV_oDatareg<= (CONV_iData0reg*(1) + CONV_iData1reg*(-1));
-
-				 CONV_oDatareg<= (CONV_iData0reg*(mnog_1) + CONV_iData1reg*(mnog_2));
-				 CONV_oData_test<= (CONV_iData0reg*(mnog_1) + CONV_iData1reg*(mnog_2));
-				if(-CONV_oData_test)
-				 begin
-					CONV_oDatareg[12]<=1;
-				 end else begin
-				          CONV_oDatareg[12]<= 0;
-				           end
-				
+			   // CONV_oDatareg<= 13'b1000000000000|(CONV_iData0reg*(1) + CONV_iData1reg*(-1));
 				 CONV_iD0<=CONV_iData0reg*(1);
                  CONV_iD1<=CONV_iData1reg*(-1);
 				state <= nextstate;
