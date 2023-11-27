@@ -6,7 +6,7 @@ module CONV(
  input reg clk, // часы
  input wire signed [11: 0] CONV_iData0, // входные данные
  input wire signed [11: 0] CONV_iData1, // входные данные
- output reg signed [12: 0] CONV_oData // данные вывода
+ output reg signed [23: 0] CONV_oData // данные вывода
 );
  
 parameter LengthOfConv = 8;  // Длина свертки
@@ -16,13 +16,13 @@ parameter InState =   4'b0001,
 		  ClrState =  4'b1000;
  
  // Три регистра типа памяти
-reg [11:0] CONV_iData0reg;//[LengthOfConv - 1:0];
-reg [11:0] CONV_iData1reg;//[LengthOfConv - 1:0];
-reg [12:0] CONV_oDatareg;//[2*LengthOfConv - 2:0];
-reg [11:0] CONV_oData_test;
+reg signed [11:0] CONV_iData0reg;//[LengthOfConv - 1:0];
+reg signed  [11:0] CONV_iData1reg;//[LengthOfConv - 1:0];
+reg signed  [23:0] CONV_oDatareg;//[2*LengthOfConv - 2:0];
+reg signed [11:0] CONV_oData_test;
 
-reg [11:0] CONV_iD0; //[LengthOfConv - 1:0];
-reg [11:0] CONV_iD1; //[LengthOfConv - 1:0];
+reg signed[11:0] CONV_iD0; //[LengthOfConv - 1:0];
+reg signed [11:0] CONV_iD1; //[LengthOfConv - 1:0];
 
 reg signed [11:0] mnog_1; //первый умножитель
 reg signed [11:0] mnog_2; //второй умножитель
@@ -49,7 +49,7 @@ begin
 	begin
 		CONV_iData0reg <= 12'b0;
 		CONV_iData1reg <= 12'b0;
-		CONV_oDatareg <= 13'b0;
+		CONV_oDatareg <= 24'b0;
 		CONV_oData_test<=12'b0;
 		// index_convs <= 0;
 		// index0 <= 0;
@@ -64,7 +64,7 @@ begin
 	    CONV_iD0 <= 12'b0;
         CONV_iD1 <= 12'b0;
 		mnog_1 <= 12'd2;
-		mnog_2 <= -12'd5;
+		mnog_2 <= 12'd5;
 		
 	end
 	else

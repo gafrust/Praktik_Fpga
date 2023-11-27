@@ -11,9 +11,9 @@ parameter WorkState = 2'b10;
     
 reg reset;
 reg clk;
-reg  [11:0] CONV_iData0;
-reg  [11:0] CONV_iData1;
-wire [12:0] CONV_oData;
+reg signed [11:0] CONV_iData0;
+reg signed [11:0] CONV_iData1;
+wire signed [23:0] CONV_oData;
 reg  [15:0] index_reset; 
 reg  [1:0]  State;
 
