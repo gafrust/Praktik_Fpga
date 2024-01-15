@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/gafru/Downloads/read_bin_file_/read_bin_file_
+vimp_200
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2dnTcce[?jQ<5G5SeLhWg3
+Im?ehKc8o:gbm7dCnLW2JC2
+Z1 dC:/Rustem/Programmer/m_seq_proj/m_seq_proj
+w1705144211
+8C:\Rustem\Programmer\m_seq_proj\m_seq_proj\imp_200.v
+FC:\Rustem\Programmer\m_seq_proj\m_seq_proj\imp_200.v
+L0 1
+Z2 OL;L;10.5;63
+Z3 !s108 1705144221.000000
+!s107 C:\Rustem\Programmer\m_seq_proj\m_seq_proj\imp_200.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Rustem\Programmer\m_seq_proj\m_seq_proj\imp_200.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vm_seq63
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 H8jVLHUnmHAXh@90MW8c33
+IKM29>2zc@`LXgB];k]4kR3
+R1
+w1705139008
+8C:/Rustem/Programmer/m_seq_proj/m_seq_proj/m_seq63.v
+FC:/Rustem/Programmer/m_seq_proj/m_seq_proj/m_seq63.v
+L0 2
+R2
+R3
+!s107 C:/Rustem/Programmer/m_seq_proj/m_seq_proj/m_seq63.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Rustem/Programmer/m_seq_proj/m_seq_proj/m_seq63.v|
+!i113 0
+R4
+R5
+vtb_dut
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 i5dSfm>zY6bhD?ZcDeFI42
+I6k@AMM04f:Q?MDED]lBU]1
+!s105 tb_dut_sv_unit
+S1
+R1
+w1705143962
+8C:/Rustem/Programmer/m_seq_proj/m_seq_proj/tb_dut.sv
+FC:/Rustem/Programmer/m_seq_proj/m_seq_proj/tb_dut.sv
+L0 2
+R2
+R3
+!s107 C:/Rustem/Programmer/m_seq_proj/m_seq_proj/tb_dut.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Rustem/Programmer/m_seq_proj/m_seq_proj/tb_dut.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
