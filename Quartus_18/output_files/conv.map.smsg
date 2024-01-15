@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at conv.v(50): always construct contains both blocking and non-blocking assignments File: E:/Praktika_FPGA/Quartus_18/conv.v Line: 50
